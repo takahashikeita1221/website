@@ -1,10 +1,10 @@
-// script.js — Apple風フェードイン＋遅延表示
+// script.js
 const elements = document.querySelectorAll('.fade-in');
 
 const observer = new IntersectionObserver(entries => {
   entries.forEach((entry, index) => {
     if (entry.isIntersecting) {
-      // 各要素ごとに0.1秒ずつ遅延
+      // 各要素ごとに0.1秒ずつ
       entry.target.style.transitionDelay = `${index * 0.1}s`;
       entry.target.classList.add('visible');
       observer.unobserve(entry.target);
@@ -14,7 +14,7 @@ const observer = new IntersectionObserver(entries => {
 
 elements.forEach(el => observer.observe(el));
 
-// 🌙 ダークモード切り替え
+//　ダークモード切り替え
 const toggleBtn = document.getElementById("dark-mode-toggle");
 
 toggleBtn.addEventListener("click", () => {
