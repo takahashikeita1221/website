@@ -200,3 +200,48 @@ a:hover {
   background-color: #333;
   color: white;
 }
+
+header {
+  position: relative;
+}
+
+/* トグル全体 */
+.lang-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* リンク */
+.lang-toggle a {
+  text-decoration: none;
+  color: #666;
+  transition: 0.2s;
+}
+
+/* 今いるページ */
+.lang-toggle .active {
+  color: #000;
+  font-weight: 700;
+}
+
+/* 区切り線 */
+.divider {
+  margin: 0 6px;
+  color: #aaa;
+}
+
+/* hover */
+.lang-toggle a:hover {
+  color: #000;
+}
+
+body.dark-mode .lang-toggle a {
+  color: #aaa;
+}
+
+body.dark-mode .lang-toggle .active {
+  color: #fff;
+}
