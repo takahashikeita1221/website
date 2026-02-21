@@ -245,3 +245,48 @@ body.dark-mode .lang-toggle a {
 body.dark-mode .lang-toggle .active {
   color: #fff;
 }
+
+header {
+  position: relative;
+}
+
+/* トグル全体 */
+.lang-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* リンク */
+.lang-toggle a {
+  text-decoration: none;
+  color: #777;
+  transition: 0.2s ease;
+}
+
+/* 今いる言語 */
+.lang-toggle .active {
+  font-weight: 700;
+  color: #000;
+}
+
+/* 区切り */
+.divider {
+  margin: 0 6px;
+  color: #aaa;
+}
+
+/* hover */
+.lang-toggle a:hover {
+  color: #000;
+}
+
+body.dark-mode .lang-toggle a {
+  color: #aaa;
+}
+
+body.dark-mode .lang-toggle .active {
+  color: #fff;
+}
