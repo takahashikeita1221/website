@@ -290,3 +290,21 @@ body.dark-mode .lang-toggle a {
 body.dark-mode .lang-toggle .active {
   color: #fff;
 }
+
+.cert-item {
+    margin-bottom: 18px;
+}
+
+.cert-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222;
+    line-height: 1.4;
+}
+
+.cert-meta {
+    margin-top: 3px;
+    font-size: 0.86rem;
+    color: #7a7a7a;
+    font-weight: 400;
+}
