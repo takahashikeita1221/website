@@ -308,3 +308,11 @@ body.dark-mode .lang-toggle .active {
     color: #7a7a7a;
     font-weight: 400;
 }
+
+body.dark-mode .cert-title {
+    color: #f5f5f7;
+}
+
+body.dark-mode .cert-meta {
+    color: #a1a1a6;
+}
